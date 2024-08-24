@@ -1,4 +1,4 @@
-<h2 align="left">I'm a Software Engineer 💻 and a BS Computer Science student 📖🧑🏻‍💻 based in Baguio City, Philippiness.</h2>
+<h2 align="left">I'm a Software Engineer 💻 and a BS Computer Science student 📖🧑🏻‍💻 based in Baguio City, Philippines.</h2>
 
 ###
 
