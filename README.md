@@ -57,6 +57,6 @@
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/donyelqt/donyelqt/output/snake.svg" alt="Snake animation" />
+
 
 ###
