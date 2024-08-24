@@ -1,4 +1,4 @@
-<h2 align="left">Hi 👋! My name is Doniele Arys Antonio and I'm a Software Engineer 💻 based in Baguio City</h2>
+<h2 align="left">I'm a Software Engineer 💻 and a BS Computer Science student 📖🧑🏻‍💻 based in Baguio City.</h2>
 
 ###
 
