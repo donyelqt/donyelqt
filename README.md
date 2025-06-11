@@ -2,7 +2,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=30&duration=4000&pause=1000&color=00FFFF&center=true&vCenter=true&width=500&lines=%2F%2F+NEON_BLUE_SYSTEM_ACTIVE;%2F%2F+PINK_PROTOCOL_ENGAGED;%2F%2F+CONNECTED_TO_PORT_8080" alt="Cyberpunk Typing Effect">
 </h1>
 
-<h3 align="center">SOFTWARE ENGINEER 💻 | DIGITAL NOMAD 📡 | TECH CYBORG 🤖</h3>
+<h3 align="center">SOFTWARE ENGINEER 💻 | BS COMPUTER SCIENCE STUDENT 📡 | AI ENGINEER 🤖</h3>
 <h4 align="center">Operating from the neon-lit mountains of Baguio City, PH 🇵🇭</h4>
 
 ###
