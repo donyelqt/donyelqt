@@ -1,21 +1,137 @@
-<h2 align="left">Software Engineer 💻 | Computer Science Student 📚 | Tech Enthusiast</h2> <h3 align="left">Building innovative solutions from Baguio City, Philippines 🇵🇭</h3>
-I'm a passionate software engineer specializing in full-stack development and mobile applications. Currently pursuing my BS in Computer Science while working on impactful projects that bridge academic concepts with real-world applications. My technical expertise spans JavaScript/TypeScript ecosystems, Python, and mobile development with Flutter.
+<h1 align="center"> 
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=30&duration=4000&pause=1000&color=39FF14&center=true&vCenter=true&width=500&lines=%2F%2F+CODING_IN_THE_NEON_RAIN" alt="Cyberpunk Typing Effect">
+</h1>
 
-🔥 GitHub Stats
-<div align="center"> <img src="https://streak-stats.demolab.com?user=donyelqt&locale=en&mode=daily&theme=dark&hide_border=true&border_radius=5&background=45%2C0F2027%2C203A43&fire=FFD700&currStreakLabel=FFD700" height="150" alt="streak graph" /> <img src="https://github-readme-stats.vercel.app/api/top-langs?username=donyelqt&locale=en&hide_title=true&layout=compact&card_width=320&langs_count=6&theme=dark&hide_border=true&bg_color=0F2027&title_color=FFD700&text_color=FFFFFF" height="150" alt="languages graph" /> </div>
-🛠️ Technical Skills
-Languages & Frameworks
-<div align="left"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black" alt="JavaScript" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" alt="TypeScript" /> <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python" /> <img src="https://img.shields.io/badge/Java-007396?logo=java&logoColor=white" alt="Java" /> <img src="https://img.shields.io/badge/C%23-239120?logo=c-sharp&logoColor=white" alt="C#" /> <img src="https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white" alt="Kotlin" /> <img src="https://img.shields.io/badge/Dart-0175C2?logo=dart&logoColor=white" alt="Dart" /> </div>
-Frontend Development
-<div align="left"> <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black" alt="React" /> <img src="https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white" alt="Next.js" /> <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="HTML5" /> <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="CSS3" /> <img src="https://img.shields.io/badge/Sass-CC6699?logo=sass&logoColor=white" alt="Sass" /> </div>
-Mobile Development
-<div align="left"> <img src="https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white" alt="Flutter" /> <img src="https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=white" alt="Android" /> </div>
-🌟 Featured Projects
-Project Name 1
-Short description of what this project does and technologies used
+<h3 align="center">SOFTWARE ENGINEER 💻 | DIGITAL NOMAD 📡 | TECH CYBORG 🤖</h3>
+<h4 align="center">Operating from the neon-lit mountains of Baguio City, PH 🇵🇭</h4>
 
-Project Name 2
-Short description of what this project does and technologies used
+###
 
-📬 Connect With Me
-<div align="left"> <a href="https://www.linkedin.com/in/donielearysantonio" target="_blank"> <img src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=for-the-badge" height="35" alt="LinkedIn" /> </a> <a href="https://www.instagram.com/thisisdonielearys" target="_blank"> <img src="https://img.shields.io/badge/Instagram-E4405F?logo=instagram&logoColor=white&style=for-the-badge" height="35" alt="Instagram" /> </a> <a href="https://www.facebook.com/donielearys.antonio" target="_blank"> <img src="https://img.shields.io/badge/Facebook-1877F2?logo=facebook&logoColor=white&style=for-the-badge" height="35" alt="Facebook" /> </a> <a href="mailto:your-email@example.com" target="_blank"> <img src="https://img.shields.io/badge/Gmail-EA4335?logo=gmail&logoColor=white&style=for-the-badge" height="35" alt="Gmail" /> </a> </div><div align="center" style="margin-top: 20px;"> <img src="https://profile-counter.glitch.me/donyelqt/count.svg?" alt="Visitor Count" /> </div>
+<div align="center">
+  <img src="https://github.com/donyelqt/donyelqt/assets/91669096/4e1a2a6a-9a96-4e2d-bb4e-6c2b0f0f1d2e" width="600" alt="cyberpunk cityscape">
+</div>
+
+###
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=donyelqt&theme=dark&background=000000&border=39FF14&stroke=8A2BE2&ring=FF00FF&fire=FF00FF&currStreakNum=39FF14&sideNums=39FF14&currStreakLabel=FF00FF&sideLabels=00EEFF&dates=00EEFF" height="150" alt="streak graph" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=donyelqt&theme=dark&bg_color=000000&title_color=39FF14&text_color=00EEFF&hide_border=true&layout=compact&langs_count=6" height="150" alt="languages graph" />
+</div>
+
+###
+
+## 🔮 TECH STACK
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="96">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="48" height="48" alt="JavaScript" />
+        <br>JS
+      </td>
+      <td align="center" width="96">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="48" height="48" alt="TypeScript" />
+        <br>TS
+      </td>
+      <td align="center" width="96">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="48" height="48" alt="React" />
+        <br>React
+      </td>
+      <td align="center" width="96">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="48" height="48" alt="Next" />
+        <br>Next
+      </td>
+      <td align="center" width="96">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="48" height="48" alt="Python" />
+        <br>Python
+      </td>
+      <td align="center" width="96">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="48" height="48" alt="Java" />
+        <br>Java
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="96">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" width="48" height="48" alt="Flutter" />
+        <br>Flutter
+      </td>
+      <td align="center" width="96">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" width="48" height="48" alt="Android" />
+        <br>Android
+      </td>
+      <td align="center" width="96">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" width="48" height="48" alt="Kotlin" />
+        <br>Kotlin
+      </td>
+      <td align="center" width="96">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="48" height="48" alt="C#" />
+        <br>C#
+      </td>
+      <td align="center" width="96">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" width="48" height="48" alt="Sass" />
+        <br>Sass
+      </td>
+      <td align="center" width="96">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" width="48" height="48" alt="Dart" />
+        <br>Dart
+      </td>
+    </tr>
+  </table>
+</div>
+
+###
+
+## 🚀 ACTIVE PROJECTS
+
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%">
+        <h3 align="center">NEON_DASHBOARD</h3>
+        <div align="center">  
+          <img height="150" src="https://github.com/donyelqt/donyelqt/assets/91669096/9e86c6b8-9a14-4f4b-aa7a-bd5c3b7b0e5c" alt="Neon dashboard">
+          <p>Real-time data visualization with React & Three.js</p>
+          <img src="https://img.shields.io/badge/Status-ONLINE-green?style=for-the-badge&color=39FF14">
+        </div>
+      </td>
+      <td width="50%">
+        <h3 align="center">CYBER_TERMINAL</h3>
+        <div align="center">
+          <img height="150" src="https://github.com/donyelqt/donyelqt/assets/91669096/5c6f1e2b-0b3d-4f1e-9f1e-4d4b3d3b3b3b" alt="Cyber terminal">
+          <p>CLI tool for network security analysis</p>
+          <img src="https://img.shields.io/badge/Version-2.3-blue?style=for-the-badge&color=00EEFF">
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
+
+###
+
+## 📡 NETWORK CONNECTIONS
+
+<div align="center">
+  <a href="https://www.linkedin.com/in/donielearysantonio" target="_blank">
+    <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000" alt="LinkedIn">
+  </a>
+  <a href="https://www.instagram.com/thisisdonielearys" target="_blank">
+    <img src="https://img.shields.io/badge/INSTAGRAM-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=000000" alt="Instagram">
+  </a>
+  <a href="mailto:your-email@example.com">
+    <img src="https://img.shields.io/badge/EMAIL_ME-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000" alt="Email">
+  </a>
+  <a href="https://www.facebook.com/donielearys.antonio" target="_blank">
+    <img src="https://img.shields.io/badge/FACEBOOK-1877F2?style=for-the-badge&logo=facebook&logoColor=white&labelColor=000000" alt="Facebook">
+  </a>
+</div>
+
+###
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=donyelqt&style=flat-square&color=8A2BE2" alt="Profile views" />
+  <img src="https://profile-counter.glitch.me/donyelqt/count.svg?color=00EEFF" alt="Visitor Count" />
+</div>
+
+<h3 align="center"> 
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=20&duration=4000&pause=1000&color=FF00FF&center=true&vCenter=true&width=500&lines=%2F%2F+SYSTEM_READY;%2F%2F+AWAITING_INPUT;%2F%2F+CONNECT_TO_PORT_8080" alt="Terminal messages">
+</h3>
