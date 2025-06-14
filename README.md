@@ -76,9 +76,54 @@
         <br><span style="color: #FF00FF">Dart</span>
       </td>
     </tr>
+    <tr>
+      <td align="center" width="96">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="48" height="48" alt="Node.js" style="filter: drop-shadow(0 0 5px #00FFFF);" />
+        <br><span style="color: #00FFFF">Node.js</span>
+      </td>
+      <td align="center" width="96">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="48" height="48" alt="TensorFlow" style="filter: drop-shadow(0 0 5px #FF00FF);" />
+        <br><span style="color: #FF00FF">TensorFlow</span>
+      </td>
+      <td align="center" width="96">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" width="48" height="48" alt="PyTorch" style="filter: drop-shadow(0 0 5px #00FFFF);" />
+        <br><span style="color: #00FFFF">PyTorch</span>
+      </td>
+      <td align="center" width="96">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" width="48" height="48" alt="Scikit-learn" style="filter: drop-shadow(0 0 5px #FF00FF);" />
+        <br><span style="color: #FF00FF">Scikit-learn</span>
+      </td>
+      <td align="center" width="96">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="48" height="48" alt="Pandas" style="filter: drop-shadow(0 0 5px #00FFFF);" />
+        <br><span style="color: #00FFFF">Pandas</span>
+      </td>
+      <td align="center" width="96">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/supabase/supabase-original.svg" width="48" height="48" alt="Supabase" style="filter: drop-shadow(0 0 5px #FF00FF);" />
+        <br><span style="color: #FF00FF">Supabase</span>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="96">
+        <img src="https://raw.githubusercontent.com/prisma/prisma/main/.github/assets/logo.svg" width="48" height="48" alt="Prisma" style="filter: drop-shadow(0 0 5px #00FFFF);" />
+        <br><span style="color: #00FFFF">Prisma</span>
+      </td>
+      <td align="center" width="96">
+        <img src="https://raw.githubusercontent.com/drizzle-team/drizzle-orm/main/drizzle-orm-logo.png" width="48" height="48" alt="Drizzle" style="filter: drop-shadow(0 0 5px #FF00FF);" />
+        <br><span style="color: #FF00FF">Drizzle</span>
+      </td>
+      <td align="center" width="96">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="48" height="48" alt="PostgreSQL" style="filter: drop-shadow(0 0 5px #00FFFF);" />
+        <br><span style="color: #00FFFF">PostgreSQL</span>
+      </td>
+      <td align="center" width="96">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="48" height="48" alt="MySQL" style="filter: drop-shadow(0 0 5px #FF00FF);" />
+        <br><span style="color: #FF00FF">MySQL</span>
+      </td>
+      <td align="center" width="96"></td>
+      <td align="center" width="96"></td>
+    </tr>
   </table>
 </div>
-
 ###
 
 ## 🚀 ACTIVE PROJECTS
