@@ -119,12 +119,28 @@
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="48" height="48" alt="MySQL" style="filter: drop-shadow(0 0 5px #FF00FF);" />
         <br><span style="color: #FF00FF">MySQL</span>
       </td>
+      <td align="center" width="96">
+        <img src="https://neon.tech/favicon/favicon.png" width="48" height="48" alt="Neon" style="filter: drop-shadow(0 0 5px #00FFFF);" />
+        <br><span style="color: #00FFFF">Neon</span>
+      </td>
+      <td align="center" width="96">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" width="48" height="48" alt="AWS S3" style="filter: drop-shadow(0 0 5px #FF00FF);" />
+        <br><span style="color: #FF00FF">AWS S3</span>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="96">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" width="48" height="48" alt="SageMaker JumpStart" style="filter: drop-shadow(0 0 5px #00FFFF);" />
+        <br><span style="color: #00FFFF">JumpStart</span>
+      </td>
+      <td align="center" width="96"></td>
+      <td align="center" width="96"></td>
+      <td align="center" width="96"></td>
       <td align="center" width="96"></td>
       <td align="center" width="96"></td>
     </tr>
   </table>
 </div>
-###
 
 ## 🚀 ACTIVE PROJECTS
 
