@@ -3,13 +3,7 @@
 </h1>
 
 <h3 align="center">SOFTWARE ENGINEER 💻 | BS COMPUTER SCIENCE STUDENT 📖 | AI ENGINEER 🤖</h3>
-<h4 align="center">Operating from the neon-lit mountains of Baguio City, PH 🇵🇭</h4>
-
-###
-
-<div align="center">
-  <img src="https://github.com/donyelqt/donyelqt/assets/91669096/4e1a2a6a-9a96-4e2d-bb4e-6c2b0f0f1d2e" width="600" alt="cyberpunk cityscape" style="filter: hue-rotate(200deg) saturate(150%);">
-</div>
+<h4 align="center">Based in Baguio City, PH 🇵🇭</h4>
 
 ###
 
