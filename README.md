@@ -136,31 +136,6 @@
   </table>
 </div>
 
-## 🚀 ACTIVE PROJECTS
-
-<div align="center">
-  <table>
-    <tr>
-      <td width="50%">
-        <h3 align="center" style="color: #00FFFF">NEON_NEXUS</h3>
-        <div align="center">  
-          <img height="150" src="https://github.com/donyelqt/donyelqt/assets/91669096/9e86c6b8-9a14-4f4b-aa7a-bd5c3b7b0e5c" alt="Neon dashboard" style="border: 1px solid #00FFFF; border-radius: 5px; box-shadow: 0 0 10px #00FFFF;">
-          <p style="color: #FF00FF">React & Three.js visualization suite</p>
-          <img src="https://img.shields.io/badge/STATUS-ONLINE-green?style=for-the-badge&color=00FFFF&labelColor=0a0026">
-        </div>
-      </td>
-      <td width="50%">
-        <h3 align="center" style="color: #FF00FF">PINK_MATRIX</h3>
-        <div align="center">
-          <img height="150" src="https://github.com/donyelqt/donyelqt/assets/91669096/5c6f1e2b-0b3d-4f1e-9f1e-4d4b3d3b3b3b" alt="Cyber terminal" style="border: 1px solid #FF00FF; border-radius: 5px; box-shadow: 0 0 10px #FF00FF;">
-          <p style="color: #00FFFF">Network security analysis toolkit</p>
-          <img src="https://img.shields.io/badge/VERSION-2.3-blue?style=for-the-badge&color=FF00FF&labelColor=0a0026">
-        </div>
-      </td>
-    </tr>
-  </table>
-</div>
-
 ###
 
 ## 📡 NETWORK CONNECTIONS
