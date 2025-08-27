@@ -1,5 +1,5 @@
 <h1 align="center"> 
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=30&duration=4000&pause=1000&color=00FFFF&center=true&vCenter=true&width=600&lines=%2F%2F+I_HAVE_NO_WHAT_IM_DOING;%2F%2F+FULL-_STACK_AI_ENGINEER;%2F%2F+DONIELE_THE_LAST_DEV" alt="Cyberpunk Typing Effect">
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=30&duration=4000&pause=1000&color=00FFFF&center=true&vCenter=true&width=600&lines=%2F%2F+I_HAVE_NO_IDEA_WHAT_IM_DOING;%2F%2F+FULL-_STACK_AI_ENGINEER;%2F%2F+DONIELE_THE_LAST_DEV" alt="Cyberpunk Typing Effect">
 </h1>
 
 <h3 align="center">SOFTWARE ENGINEER 💻 | BS COMPUTER SCIENCE STUDENT 📖 | AI ENGINEER 🤖</h3>
