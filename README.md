@@ -162,10 +162,6 @@
   <img src="https://profile-counter.glitch.me/donyelqt/count.svg?color=FF00FF&style=flat-square&label=TERMINAL+VISITS" alt="Visitor Count" />
 </div>
 
-<h3 align="center"> 
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=20&duration=4000&pause=1000&color=00FFFF&center=true&vCenter=true&width=500&lines=%2F%2F+SYSTEM_OPTIMIZED;%2F%2F+PINK_BLUE_PROTOCOL_ACTIVE;%2F%2F+AWAITING_INPUT" alt="Terminal messages">
-</h3>
-
 <div align="center">
   <img src="https://raw.githubusercontent.com/donyelqt/donyelqt/main/assets/neon-divider.svg" width="100%">
 </div>
