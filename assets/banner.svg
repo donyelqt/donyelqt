@@ -8,11 +8,6 @@
       <stop offset="0" stop-color="#7c3aed" stop-opacity="0.55"/>
       <stop offset="1" stop-color="#7c3aed" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#a855f7"/>
-      <stop offset="0.55" stop-color="#c084fc"/>
-      <stop offset="1" stop-color="#38bdf8"/>
-    </linearGradient>
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
       <path d="M40 0 H0 V40" fill="none" stroke="#a855f7" stroke-opacity="0.06" stroke-width="1"/>
     </pattern>
@@ -20,7 +15,7 @@
   <rect width="1200" height="350" fill="url(#bg)"/>
   <rect width="1200" height="350" fill="url(#grid)"/>
   <rect width="1200" height="350" fill="url(#glow)"/>
-  <text x="600" y="152" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="84" font-weight="800" letter-spacing="6" fill="url(#txt)">DONIELE</text>
+  <text x="600" y="152" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="84" font-weight="800" letter-spacing="6" fill="#c084fc">DONIELE</text>
   <text x="600" y="206" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="26" font-weight="600" letter-spacing="10" fill="#e9d5ff">FULL-STACK &amp; AI ENGINEER</text>
   <text x="600" y="252" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="13" letter-spacing="3" fill="#7c3aed">BS COMPUTER SCIENCE · BAGUIO CITY, PH</text>
 </svg>
