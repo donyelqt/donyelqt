@@ -22,6 +22,5 @@
   <rect width="1200" height="350" fill="url(#glow)"/>
   <text x="600" y="152" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="84" font-weight="800" letter-spacing="6" fill="url(#txt)">DONIELE</text>
   <text x="600" y="206" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="26" font-weight="600" letter-spacing="10" fill="#e9d5ff">FULL-STACK &amp; AI ENGINEER</text>
-  <text x="600" y="250" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="15" font-weight="500" letter-spacing="6" fill="#a78bda">「無量」 · LIMITLESS BY DESIGN</text>
-  <text x="600" y="300" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="13" letter-spacing="3" fill="#7c3aed">BS COMPUTER SCIENCE · BAGUIO CITY, PH</text>
+  <text x="600" y="252" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="13" letter-spacing="3" fill="#7c3aed">BS COMPUTER SCIENCE · BAGUIO CITY, PH</text>
 </svg>

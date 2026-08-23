@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=22&duration=4200&pause=1200&color=7C3AED&center=true&vCenter=true&width=720&lines=%2F%2F+FULL-STACK+AI+ENGINEER;%2F%2F+BUILDING+THE+LIMITLESS;%2F%2F+DONIELE_THE_LAST_DEV" alt="typing">
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=22&duration=4200&pause=1200&color=7C3AED&center=true&vCenter=true&width=760&lines=%2F%2F+I_HAVE_NO_IDEA_WHAT_IM_DOING;%2F%2F+FULL-_STACK_AI_ENGINEER;%2F%2F+DONIELE_THE_LAST_DEV" alt="typing">
 </p>
 
 <p align="center">
@@ -145,5 +145,5 @@
 </p>
 
 <div align="center">
-  <sub>「無量」 — built with intent, not noise.</sub>
+  <sub>doniele · the last dev</sub>
 </div>
