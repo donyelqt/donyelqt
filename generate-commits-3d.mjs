@@ -1,7 +1,7 @@
 import { writeFileSync } from "node:fs";
 
 const USER = "donyelqt";
-const YEAR = 2025;
+const YEAR = new Date().getFullYear();
 const hw = 8; // tile half-width
 const hh = 4.5; // tile half-height
 const HSCALE = 0.9; // commits -> px height
