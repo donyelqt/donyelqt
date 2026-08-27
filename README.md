@@ -143,5 +143,5 @@
 </p>
 
 <div align="center">
-  <sub>doniele · the last dev</sub>
+  <sub>doniele the last dev</sub>
 </div>
