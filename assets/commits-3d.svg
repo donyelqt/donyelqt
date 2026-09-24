@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="-80 -61.7 528 346.7" width="528" height="347" role="img" aria-label="3D commit graph 2026">
   <rect x="-80" y="-61.7" width="528" height="346.7" fill="#0a0118"/>
-  <text x="-78" y="-43.7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700" letter-spacing="2" fill="#c084fc">2026 · 1890 COMMITS</text>
+  <text x="-78" y="-43.7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700" letter-spacing="2" fill="#c084fc">2026 · 1974 COMMITS</text>
   <polygon points="0,2.7 8,7.2 8,9 0,4.5" fill="rgb(53,20,104)" stroke="#0a0118" stroke-width="0.3"/><polygon points="8,7.2 16,2.7 16,4.5 8,9" fill="rgb(38,15,75)" stroke="#0a0118" stroke-width="0.3"/><polygon points="8,-1.8 16,2.7 8,7.2 0,2.7" fill="#4c1d95" stroke="#0a0118" stroke-width="0.3"/>
   <polygon points="-8,5.4 0,9.9 0,13.5 -8,9" fill="rgb(53,20,104)" stroke="#0a0118" stroke-width="0.3"/><polygon points="0,9.9 8,5.4 8,9 0,13.5" fill="rgb(38,15,75)" stroke="#0a0118" stroke-width="0.3"/><polygon points="0,0.8999999999999999 8,5.4 0,9.9 -8,5.4" fill="#4c1d95" stroke="#0a0118" stroke-width="0.3"/>
   <polygon points="8,-7.199999999999999 16,-2.6999999999999993 16,13.5 8,9" fill="rgb(53,20,104)" stroke="#0a0118" stroke-width="0.3"/><polygon points="16,-2.6999999999999993 24,-7.199999999999999 24,9 16,13.5" fill="rgb(38,15,75)" stroke="#0a0118" stroke-width="0.3"/><polygon points="16,-11.7 24,-7.199999999999999 16,-2.6999999999999993 8,-7.199999999999999" fill="#4c1d95" stroke="#0a0118" stroke-width="0.3"/>
@@ -272,7 +272,7 @@
   <polygon points="328,180 336,184.5 328,189 320,184.5" fill="#1b0b33" stroke="#0a0118" stroke-width="0.4"/>
   <polygon points="232,145.8 240,150.3 240,193.5 232,189" fill="rgb(118,59,173)" stroke="#0a0118" stroke-width="0.3"/><polygon points="240,150.3 248,145.8 248,189 240,193.5" fill="rgb(84,43,124)" stroke="#0a0118" stroke-width="0.3"/><polygon points="240,141.3 248,145.8 240,150.3 232,145.8" fill="#a855f7" stroke="#0a0118" stroke-width="0.3"/>
   <polygon points="248,175.5 256,180 256,193.5 248,189" fill="rgb(53,20,104)" stroke="#0a0118" stroke-width="0.3"/><polygon points="256,180 264,175.5 264,189 256,193.5" fill="rgb(38,15,75)" stroke="#0a0118" stroke-width="0.3"/><polygon points="256,171 264,175.5 256,180 248,175.5" fill="#4c1d95" stroke="#0a0118" stroke-width="0.3"/>
-  <polygon points="272,184.5 280,189 272,193.5 264,189" fill="#1b0b33" stroke="#0a0118" stroke-width="0.4"/>
+  <polygon points="264,144 272,148.5 272,193.5 264,189" fill="rgb(151,126,178)" stroke="#0a0118" stroke-width="0.3"/><polygon points="272,148.5 280,144 280,189 272,193.5" fill="rgb(108,90,127)" stroke="#0a0118" stroke-width="0.3"/><polygon points="272,139.5 280,144 272,148.5 264,144" fill="#d8b4fe" stroke="#0a0118" stroke-width="0.3"/>
   <polygon points="288,184.5 296,189 288,193.5 280,189" fill="#1b0b33" stroke="#0a0118" stroke-width="0.4"/>
   <polygon points="304,184.5 312,189 304,193.5 296,189" fill="#1b0b33" stroke="#0a0118" stroke-width="0.4"/>
   <polygon points="320,184.5 328,189 320,193.5 312,189" fill="#1b0b33" stroke="#0a0118" stroke-width="0.4"/>
