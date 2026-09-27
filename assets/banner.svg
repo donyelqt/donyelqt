@@ -11,11 +11,32 @@
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
       <path d="M40 0 H0 V40" fill="none" stroke="#a855f7" stroke-opacity="0.06" stroke-width="1"/>
     </pattern>
+
+    <!-- WORDMARK GRADIENT — pink -> purple -> cyan, left to right.
+         5 stops instead of 3: the two bridge stops keep the pink/purple and
+         purple/cyan transitions smooth instead of muddy in the middle.
+         objectBoundingBox makes the ramp span the rendered text exactly,
+         so it stays correct on any platform fallback font.
+         To revert, comment out the wordmark <text> below and restore the
+         flat-fill version kept in the comment block underneath it. -->
+    <linearGradient id="wordmark" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0"    stop-color="#f472b6"/> <!-- pink -->
+      <stop offset="0.25" stop-color="#d946ef"/> <!-- pink -> purple bridge -->
+      <stop offset="0.5"  stop-color="#a855f7"/> <!-- purple (brand accent) -->
+      <stop offset="0.75" stop-color="#38bdf8"/> <!-- purple -> cyan bridge -->
+      <stop offset="1"    stop-color="#22d3ee"/> <!-- cyan -->
+    </linearGradient>
   </defs>
   <rect width="1200" height="350" fill="url(#bg)"/>
   <rect width="1200" height="350" fill="url(#grid)"/>
   <rect width="1200" height="350" fill="url(#glow)"/>
+
+  <!-- PREVIOUS FLAT COLOUR TEXT — kept for revert. Restore this and remove the
+       fill="url(#wordmark)" line on the live <text> below.
   <text x="600" y="152" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="84" font-weight="800" letter-spacing="6" fill="#c084fc">DONIELE</text>
+  -->
+
+  <text x="600" y="152" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="84" font-weight="800" letter-spacing="6" fill="url(#wordmark)">DONIELE</text>
   <text x="600" y="206" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="26" font-weight="600" letter-spacing="10" fill="#e9d5ff">FULL-STACK &amp; AI ENGINEER</text>
   <text x="600" y="252" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="13" letter-spacing="3" fill="#7c3aed">BS COMPUTER SCIENCE · BAGUIO CITY, PH</text>
 </svg>
