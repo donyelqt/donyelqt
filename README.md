@@ -17,7 +17,7 @@
 
 ## Stats
 <p align="center">
-  <img src="assets/streak.svg" width="495" height="195" alt="Contribution streak: total contributions, current streak days, longest streak days">
+  <img src="assets/streak.svg" height="165" alt="Contribution streak: total contributions, current streak days, longest streak days">
 </p>
 
 <p align="center">
