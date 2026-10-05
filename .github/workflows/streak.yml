@@ -1,0 +1,29 @@
+name: refresh streak card
+
+on:
+  schedule:
+    - cron: "23 4 * * *"      # daily, 12:23 in Asia/Manila
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["generate-streak.mjs", "assets/streak.svg"]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node generate-streak.mjs
+      - name: commit updated card
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/streak.svg
+          git diff --cached --quiet || git commit -m "chore: refresh streak card"
+          git push
