@@ -17,7 +17,7 @@
 
 ## Stats
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=donyelqt&theme=dark&background=0a0118&border=a855f7&stroke=a855f7&ring=a855f7&fire=a855f7&currStreakNum=e9d5ff&sideNums=e9d5ff&currStreakLabel=a855f7&sideLabels=a78bda&dates=a78bda" height="165" alt="streak">
+  <img src="assets/streak.svg" width="495" height="195" alt="Contribution streak: total contributions, current streak days, longest streak days">
 </p>
 
 <p align="center">
