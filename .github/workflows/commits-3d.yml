@@ -6,7 +6,19 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths-ignore: [".github/**"]
+    # Same shape as streak.yml: ignore generated SVGs so neither bot re-triggers
+    # on the other's commits, and ignore .github/** as before so bot-driven
+    # workflow edits don't loop. Source edits fall through to a re-run.
+    paths-ignore:
+      - "assets/streak.svg"
+      - "assets/commits-3d.svg"
+      - ".github/**"
+
+# Both cards refresh on nearly the same cron and can collide on a push.
+# Serialize runs of this workflow; queued runs wait instead of racing.
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -20,10 +32,19 @@ jobs:
         with:
           node-version: 20
       - run: node generate-commits-3d.mjs
+        # generate-commits-3d.mjs reads GitHub GraphQL via lib/contributions.mjs,
+        # which throws unless GITHUB_TOKEN/GH_TOKEN is in the step env. Actions
+        # only auto-provisions GITHUB_TOKEN into the run context, so pass it in
+        # explicitly or the run dies immediately with no graph written.
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: commit updated graph
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add assets/commits-3d.svg
           git diff --cached --quiet || git commit -m "chore: refresh 3d commit graph"
-          git push
+          # The streak bot pushes minutes earlier, so a bare push can land
+          # non-fast-forward and leave the graph stale. Replay onto the new head
+          # once instead of failing the run. No force-push: main is public.
+          git push || (git pull --rebase --autostash origin main && git push)

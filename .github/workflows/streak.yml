@@ -6,7 +6,20 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ["generate-streak.mjs", "assets/streak.svg"]
+    # The schedule is what refreshes the card; a push only forces an early
+    # refresh when source changes. assets/streak.svg is written by this very
+    # workflow, so listing it in `paths` made every bot commit re-trigger the
+    # run. The 3d card is ignored here for the same reason: neither bot should
+    # react to the other's output.
+    paths-ignore:
+      - "assets/streak.svg"
+      - "assets/commits-3d.svg"
+
+# Both cards refresh on nearly the same cron and can collide on a push.
+# Serialize runs of this workflow; queued runs wait instead of racing.
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -20,10 +33,19 @@ jobs:
         with:
           node-version: 20
       - run: node generate-streak.mjs
+        # generate-streak.mjs reads GitHub GraphQL via lib/contributions.mjs,
+        # which throws unless GITHUB_TOKEN/GH_TOKEN is in the step env. Actions
+        # only auto-provisions GITHUB_TOKEN into the run context, so pass it in
+        # explicitly or the run dies immediately with no card written.
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: commit updated card
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add assets/streak.svg
           git diff --cached --quiet || git commit -m "chore: refresh streak card"
-          git push
+          # The 3d bot pushes minutes apart, so a bare push can land
+          # non-fast-forward and leave the card stale. Replay onto the new head
+          # once instead of failing the run. No force-push: main is public.
+          git push || (git pull --rebase --autostash origin main && git push)

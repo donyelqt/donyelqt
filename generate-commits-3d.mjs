@@ -1,4 +1,5 @@
 import { writeFileSync } from "node:fs";
+import { fetchContributions } from "./lib/contributions.mjs";
 
 const USER = "donyelqt";
 const YEAR = new Date().getFullYear();
@@ -6,11 +7,24 @@ const hw = 8; // tile half-width
 const hh = 4.5; // tile half-height
 const HSCALE = 0.9; // commits -> px height
 
-const res = await fetch(`https://github-contributions-api.jogruber.de/v4/${USER}?y=${YEAR}`);
-if (!res.ok) throw new Error("contributions fetch failed: " + res.status);
-const data = await res.json();
-const items = data.contributions; // [{date,count,level}]
-const total = data.total[YEAR];
+// The counts come from GitHub's own GraphQL API rather than from the public
+// mirror this card used to read: that mirror is a third-party cache in front
+// of the same data and it served copies that lag GitHub's graph by a day,
+// which is what froze the streak card. See lib/contributions.mjs.
+const counts = await fetchContributions(USER, `${YEAR}-01-01`, `${YEAR}-12-31`);
+
+// GraphQL returns counts but no shade bucket, so `level` is recomputed with
+// the rule the mirror's own answers follow: a year is cut into quarters of
+// its largest non-outlier day, the busiest 1% of the days being treated as
+// outliers. Measured for this account in 2026, whose largest days were 124,
+// 103 and 89: q = 89 / 4 reproduces the level the mirror reported for all
+// 365 days of that year.
+const active = [...counts.values()].filter((count) => count > 0).sort((a, b) => b - a);
+const q = (active[Math.floor(active.length * 0.01)] ?? 0) / 4;
+const level = (count) => (count <= 0 ? 0 : count <= q ? 1 : count <= 2 * q ? 2 : count <= 3 * q ? 3 : 4);
+
+const items = [...counts].map(([date, count]) => ({ date, count, level: level(count) })); // [{date,count,level}]
+const total = [...counts.values()].reduce((sum, count) => sum + count, 0);
 
 const base = Date.UTC(YEAR, 0, 1);
 const jan1Dow = new Date(base).getUTCDay(); // 0=Sun

@@ -1,4 +1,5 @@
 import { writeFileSync } from "node:fs";
+import { fetchContributions } from "./lib/contributions.mjs";
 
 /**
  * Renders the profile's streak card to assets/streak.svg.
@@ -15,11 +16,20 @@ import { writeFileSync } from "node:fs";
  * animation below is copied verbatim from the card this replaces, so switching
  * over is not a redesign: the rendered result is the same design with fresh
  * values. Do not "tidy" the geometry.
+ *
+ * The numbers come from GitHub's own GraphQL API via `lib/contributions.mjs`.
+ * The card previously read `github-contributions-api.jogruber.de`, whose
+ * response is served from a cache that lags GitHub's graph: on Oct 8, 10 and 11
+ * 2026 the cached copy reported total=5820 current=0 longest=76 while the
+ * account had not actually stopped, the guard below treated that as corrupt
+ * data, and the daily run aborted so the card froze at its last good state.
+ * Reading the graph directly removes the lag, and the streak is now anchored on
+ * the last day that actually has contributions so a not-yet-committed today
+ * does not read as a broken streak.
  */
 
 const USER = "donyelqt";
 const SINCE = "2023-08-31"; // first day the profile shows contributions
-const API = "https://github-contributions-api.jogruber.de/v4";
 
 // Same colours as the streak-stats card this replaces, so the README keeps
 // its look. See the `theme=dark` parameters on the old URL.
@@ -76,37 +86,39 @@ function longestRun(counts) {
 }
 
 /**
- * Consecutive non-zero days ending today.
+ * Consecutive non-zero days ending today, or ending on the most recent day that
+ * has contributions when today has none.
  *
- * Anchored on today rather than on "the last day that happened to have a
- * contribution": if today has none, the streak is broken and this returns 0,
- * which is the honest reading rather than silently reporting yesterday's run
- * as if it were still alive.
+ * Today having no contributions yet is the normal state of a day that is not
+ * over, not corrupt data, so a trailing run of zero days is skipped and the
+ * streak is anchored on the last day that scored. The returned `end` is that
+ * anchor, so the card's "Current Streak" range shows where the streak really
+ * finished instead of claiming today is inside it. The walk is over the sorted
+ * keys of the window, so it is bounded by the data and cannot run away.
  */
 function currentRun(counts, today) {
+  const dates = [...counts.keys()].sort();
+
+  let i = dates.length - 1;
+  while (i >= 0 && !(counts.get(dates[i]) > 0)) i--;
+  if (i < 0) return { length: 0, start: null, end: today };
+
+  const end = dates[i];
   let length = 0;
-  let day = parse(today);
-  while (length < 4000) {
-    const key = fromUTC(day);
-    if (!counts.has(key) || counts.get(key) === 0) break;
+  let prev = null;
+  // Walking backwards, so the earlier day is the smaller timestamp.
+  while (i >= 0 && counts.get(dates[i]) > 0 && (prev === null || prev - parse(dates[i]) === 86400000)) {
+    prev = parse(dates[i]);
     length++;
-    day -= 86400000;
+    i--;
   }
-  return { length, start: fromUTC(day + 86400000), end: today };
+  return { length, start: fromUTC(prev), end };
 }
 
 const today = todayISO();
-const url = `${API}/${USER}?from=${SINCE}&to=${today}`;
-const res = await fetch(url);
-if (!res.ok) throw new Error("contributions fetch failed: " + res.status);
-
-const data = await res.json();
-const counts = new Map();
-for (const item of data.contributions) {
-  // The API returns whole days including ones after `to`; drop them so they
-  // cannot be mistaken for real activity.
-  if (item.date <= today) counts.set(item.date, item.count);
-}
+// Every day in the window, zero-contribution days included, already trimmed to
+// [SINCE, today] by the helper.
+const counts = await fetchContributions(USER, SINCE, today);
 
 const total = [...counts.values()].reduce((a, b) => a + b, 0);
 const current = currentRun(counts, today);
@@ -117,9 +129,10 @@ const longest = longestRun(counts);
 const active = [...counts.entries()].filter(([, n]) => n > 0).map(([d]) => d).sort();
 const firstActive = active[0];
 
-// Fail loudly rather than publishing a card that claims a streak we could not
-// read. A stale "0" is worse than a failed run the workflow will retry.
-if (!firstActive || current.length === 0 || longest.length === 0 || total === 0) {
+// Fail loudly rather than publishing a card built from data we could not read:
+// no days, no active days, or a zero total means the calendar never arrived. A
+// 0-day current streak is not one of those — it is a legitimate reading.
+if (!firstActive || longest.length === 0 || total === 0) {
   throw new Error(
     `implausible data: total=${total} current=${current.length} longest=${longest.length}`
   );
